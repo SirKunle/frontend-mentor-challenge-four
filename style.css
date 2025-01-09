@@ -32,7 +32,7 @@ span{
     font-size: 1.1em;
     margin-bottom: 20px;
 }
-.buttonarea{
+form{
     margin: 20px;
 }
 .landing input {
@@ -67,6 +67,9 @@ input::placeholder {
 }
 .social-icons i {
     margin: 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50%;
     cursor: pointer;
 }
 .social-icons i:hover {
@@ -77,39 +80,55 @@ input::placeholder {
     margin-top: 15px;
     font-size: 0.9em;
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 600px){
     .container {
         padding: 20px;
     }
     .logo img {
         width: 50px;
         margin-bottom: 20px;
+        margin-left: 30px;
     }
+    .landing h1 {
+        font-size: 1.3em;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+    
     .landing p {
         font-size: 1em;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+        margin-left: 30px;
     }
-    .buttonarea {
-        margin: 15px;
+    form {
+        margin: 3px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
     }
     .landing input {
-        padding: 10px;
-        width: 80%;
-        margin-right: 0;
+        padding: 13px;
+        width: 120%;
+        border-radius: 20px;
+        margin-right: 1px;
     }
     .landing button {
-        padding: 10px 40px;
-        font-size: 1em;
+        width: 120%;
+        padding: 15px 110px;
+        border-radius: 20px;
     }
     .landing img {
-        width: 70%;
+        width: 110%;
         margin: 10px;
     }
     .footer p {
         font-size: 0.8em;
     }
+    .social-icons{
+        margin-left: 40px;
+    }
     .social-icons i {
-        font-size: 24px;
+        font-size: 20px;
         margin: 8px;
     }
 }
