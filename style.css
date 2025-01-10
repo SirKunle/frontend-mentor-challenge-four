@@ -21,7 +21,7 @@ span{
     background-color: #fff;  
 }
 .logo img {
-    width: 70px;
+    width: 70px;  
     margin-bottom: 30px;
 }
 .landing h1 {
@@ -65,6 +65,10 @@ input::placeholder {
 .footer {
     margin-top: 40px;
 }
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
 .social-icons i {
     margin: 10px;
     padding: 10px;
@@ -86,19 +90,17 @@ input::placeholder {
     }
     .logo img {
         width: 50px;
-        margin-bottom: 20px;
-        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
     .landing h1 {
-        font-size: 1.3em;
-        margin-bottom: 10px;
-        margin-left: 30px;
+        font-size: 25px;
+        margin-bottom: 20px;
     }
     
     .landing p {
         font-size: 1em;
         margin-bottom: 20px;
-        margin-left: 30px;
     }
     form {
         margin: 3px;
@@ -108,27 +110,29 @@ input::placeholder {
     }
     .landing input {
         padding: 13px;
-        width: 120%;
+        width: 90%;
         border-radius: 20px;
-        margin-right: 1px;
+        margin-left: 25px;
     }
     .landing button {
-        width: 120%;
+        width: 90%;
         padding: 15px 110px;
         border-radius: 20px;
+        margin-left: 25px;
     }
     .landing img {
-        width: 110%;
+        width: 90%;
         margin: 10px;
     }
     .footer p {
         font-size: 0.8em;
     }
-    .social-icons{
-        margin-left: 40px;
+
+    .facebook{
+        width: 10;
     }
     .social-icons i {
-        font-size: 20px;
+        font-size: 10px;
         margin: 8px;
     }
 }
